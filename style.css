@@ -1,0 +1,145 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    margin: 20px;
+    display: grid;
+    grid-template-rows: 100%;
+    grid-template-columns: 120px auto auto;
+}
+
+h1 {
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.role h2 {
+    font-size: 16px;
+    color: #2AAEE7;
+    margin: 0px 0px 7px;
+}
+
+figure {
+    margin: 0;
+    margin-top: 20px;
+}
+
+.ava {
+    border-radius: 100px;
+    width: 99px;
+    height: 99px;
+    border: #2AAEE7  1px solid;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 1000px; 
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contacts {
+    float: left;
+    margin: 7px 0px 7px;
+
+}
+.contacts-icon {
+    width: 11px;
+    height: 11px;
+}
+
+.contact-ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+.contact-li{
+    margin-top: 10px;
+}
+
+li.contact-li > p {
+    display: inline;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+.vk  {
+    display: inline;
+    font-size: 16px;
+}
+
+div.about-me {
+    font-family: Arial;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 21px;
+
+}
+
+main {
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-column-gap: 24px;
+}
+
+main > div {
+    width: 1fr;
+}
+
+main > div > div > h2 {
+    margin: 0;
+
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #73808D;
+    border-bottom: 0.5px solid #73808D;
+}
+
+div.skills > div > ul > li {
+    text-decoration: underline;
+    list-style-type: none;
+    margin: 0;
+}
+
+div.info-skills > div > div > h3 {
+    margin: 10px;
+}
+
+footer {
+    margin: 10px;
+    display: grid;
+    grid-template-rows: 100%;
+    grid-template-columns: 1fr 1fr 100px;
+}
+
+div.github {
+   display: grid;
+   grid-template-columns: 24px auto;
+}
+
+nav{
+    text-transform: uppercase;
+    margin: 20px 10px;
+}
+
+.nav-li{
+    padding-top: 10px;
+}
+
+nav > p{
+    font-size: 20px;
+    text-align:left;
+    padding-left: 20px;
+}
