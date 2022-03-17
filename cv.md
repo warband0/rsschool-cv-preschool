@@ -11,7 +11,7 @@
 21 years old. I'm a fourth-year students of BSATU.
 
 # Skills
-  * Basic: C++, JavaScript, HTML, CSS
+  * Basic: JavaScript, HTML, CSS
   * Photoshop
   * Figma 
   * Git
